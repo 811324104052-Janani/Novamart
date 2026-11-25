@@ -461,4 +461,5 @@ FROM products
 WHERE category IN ('Electronics', 'Accessories', 'Fashion')
 GROUP BY category
 ORDER BY category;
-select *from addresses;
+use novamart_db;
+select *from orders;
